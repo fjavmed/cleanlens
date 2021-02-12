@@ -1,0 +1,85 @@
+
+header{
+	background-image: url(captura.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: contain;
+	background-size: 200px 200px;
+}
+
+body{
+	background-color: $color-principal;
+}
+
+nav ul{
+	list-style-type: none;
+	font-size: 50px;
+	font-family: 'Lobster';
+}
+
+nav li{
+	display: inline-block;
+	width: 25%;
+	font-size: 20px;
+	position: relative;
+}
+ 
+nav ul ul{
+	position: absolute;
+	display: none;
+}
+
+nav ul li:hover ul{
+	display: inline;
+}
+
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.menu1{
+font-size: 25px;
+left: 50px;
+width: 200px;
+position:relative;
+padding: 10px;
+border-style: solid;
+border-color: white;
+background-color: gray;
+}
+
+
+footer{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	position:sticky;
+
+
+
+}
+
+h1{
+	color: #C23E07;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: impact, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	letter-spacing: 20px;
+	word-spacing: 20px;
+}
+
+p{
+	color:#F48353;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 40px;
+}

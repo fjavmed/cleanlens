@@ -1,0 +1,22 @@
+.animar{
+
+animation: animatrix 4s infinite;
+
+}
+
+@keyframes animatrix{
+
+from{
+	transform: scale(1);
+}
+
+0%{
+
+	transform: scale(1,2);
+	}
+
+to{
+	transform: scale(1);
+}
+
+}

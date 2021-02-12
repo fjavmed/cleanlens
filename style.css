@@ -1,0 +1,275 @@
+/*****************Desafío 8********************/
+/*anime el boton del menú*/
+
+
+.animar{
+
+animation: animatrix 4s infinite;
+
+}
+
+
+@keyframes animatrix{
+
+from{
+	transform: scale(1);
+}
+
+0%{
+
+	transform: scale(1,2);
+	}
+
+to{
+	transform: scale(1);
+}
+
+}
+
+
+/*****************Desafío 7********************/
+
+
+
+.contenedor{
+	height: 600px;
+	width: 826px;
+
+	background-color: pink;
+
+
+	display: grid;
+
+	grid-template-rows: 100px 400px 100px;
+	grid-template-columns: 200px 400px 226px;
+
+	grid-template-areas: "pos1 pos2 pos2"
+	                     "pos3 pos3 pos3"
+	                     "pos4 pos4 pos4";
+
+
+justify-content: left;
+align-content: top;
+
+
+
+}
+
+.grid1, .grid2, .grid3, .grid4{
+	border: solid 1px black;
+	
+	
+
+}
+
+.grid1{
+	background-color: #442C7A;
+	grid-area:pos1;
+	
+}
+.grid2{
+	background-image: linear-gradient(to right, grey, blue);
+	grid-area:pos2;
+}
+.grid3{
+	background-image: linear-gradient(to right, grey, yellow);
+	grid-area:pos3;
+}
+.grid4{
+	background-color: orange;
+	grid-area:pos4;
+}
+
+
+/***GRIDS***/
+
+
+
+.PadreForm{
+background-color: grey;
+width: 400px;
+height: 400px;
+display: flex;
+flex-direction: row; /*row o column*/
+flex-wrap: wrap;   
+align-items: flex-start;
+
+justify-content: center;
+
+
+ }
+
+
+
+ .hijo1, .hijo2, .hijo3, .hijo4 {
+
+ 	border: solid 1px grey;
+ 	flex-basis: 200px; 
+ 	width: 300px;
+
+
+ }
+
+ .hijo1{
+background-color: #442C7A;
+order: 0;
+align-content: center;
+ }
+
+
+ .hijo2{
+background-color: #D8E6FC;
+flex-shrink: 2;
+
+ }
+
+ .hijo3{
+background-color: #442C7A;
+
+ }
+
+ .hijo4{
+background-color: #5D517A;
+
+ }
+
+
+/*****************Desafío 6********************/
+
+
+header{
+	background-image: url(imagenes/captura.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: contain;
+	background-size: 200px 200px;
+}
+
+body{
+	background-color: #D8E6FC;
+}
+
+nav ul{
+	list-style-type: none;
+	font-size: 50px;
+	font-family: 'Lobster';
+}
+
+nav li{
+	display: inline-block;
+	width: 25%
+	font-size: 20px;
+	position: relative;
+}
+ 
+nav ul ul{
+	position: absolute;
+	display: none;
+}
+
+nav ul li:hover ul{
+	display: inline;
+}
+
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.menu1{
+font-size: 25px;
+left: 50px;
+width: 200px;
+position:relative;
+padding: 10px;
+border-style: solid;
+border-color: white;
+background-color: gray;
+}
+
+
+footer{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	position:sticky;
+
+
+
+}
+
+h1{
+	color: #C23E07;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: impact, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	letter-spacing: 20px;
+	word-spacing: 20px;
+}
+
+p{
+	color:#F48353;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+
+
+
+.colormenu{
+	color: #C23E07;
+
+}
+
+.imgbox{
+display: block;
+background-color: Brown;
+	position:relative;
+	overflow: hidden;
+	border: solid;
+	position: relative;
+	width: 820px;
+	}
+
+div img{
+	display: inline;
+	padding: 0px;
+	box-sizing: border-box;
+	border: solid black 2px;
+	overflow: hidden;
+
+}
+
+ol{
+	list-style-type: circle;
+	list-style-position: inside;
+
+}
+.servicios{
+	position: relative;
+	width: 600px
+    top: 40px; 
+    left: 80px;
+    padding: 10px;
+
+}
+
+
+
+#ParrafoIntro{
+	color:green;
+	font-family: 'Lobster', cursive;
+}
+    
+
+
