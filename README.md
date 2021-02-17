@@ -1,6 +1,3 @@
-<h1 align="center">Hola soy Francisco Medina</h1>
-<h3 align="center">estoy aprendiendo programación</h3>
-
 - actualmente trabajo en [mi primera página](https://github.com/fjavmed/cleanlens)
 
 - 📫 How to reach me **fjavmed@gmail.com**
